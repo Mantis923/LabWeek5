@@ -1,0 +1,18 @@
+﻿<Window x:Class="LabWeek5_Num2.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:LabWeek5_Num2"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+
+    <Grid>
+        <Canvas HorizontalAlignment="Left" Height="380" Name="TempCanvas" Margin="22,22,0,0" VerticalAlignment="Top" Width="743">
+        <Label x:Name = "SpeedLabel" Content="Speed MPH" HorizontalAlignment="left" Margin="140,123,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.595,1.696"/>
+        <TextBox x:Name="SpeedTextBox" HorizontalAlignment="Left" Height="23" Margin="236,123,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width ="165" RenderTransformOrigin="0.573,2.99"/>
+        <Button x:Name ="SpeedWarningButton" Content="Speed Warning" HorizontalAlignment="Left" Margin="254,230,0,0" VerticalAlignment="Top" Width="147" Background="White" Click="SpeedWarningButton_Click"/>
+        </Canvas>
+
+    </Grid>
+</Window>
